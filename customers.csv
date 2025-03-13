@@ -1,0 +1,1001 @@
+customer_id,name,email,phone,company,industry,date_added,loyalty_score
+1,Customer 1,customer1@email.com,123-456-1001,,Finance,2020-01-02,12
+2,Customer 2,customer2@email.com,123-456-1002,,Healthcare,2020-01-03,23
+3,Customer 3,customer3@email.com,123-456-1003,Company 3,Retail,2020-01-04,63
+4,Customer 4,customer4@email.com,123-456-1004,,Education,2020-01-05,12
+5,Customer 5,customer5@email.com,123-456-1005,,Technology,2020-01-06,8
+6,Customer 6,customer6@email.com,123-456-1006,Company 6,Finance,2020-01-07,62
+7,Customer 7,customer7@email.com,123-456-1007,,Healthcare,2020-01-08,14
+8,Customer 8,customer8@email.com,123-456-1008,,Retail,2020-01-09,86
+9,Customer 9,customer9@email.com,123-456-1009,Company 9,Education,2020-01-10,33
+10,Customer 10,customer10@email.com,123-456-1010,,Technology,2020-01-11,37
+11,Customer 11,customer11@email.com,123-456-1011,,Finance,2020-01-12,54
+12,Customer 12,customer12@email.com,123-456-1012,Company 2,Healthcare,2020-01-13,20
+13,Customer 13,customer13@email.com,123-456-1013,,Retail,2020-01-14,77
+14,Customer 14,customer14@email.com,123-456-1014,,Education,2020-01-15,34
+15,Customer 15,customer15@email.com,123-456-1015,Company 5,Technology,2020-01-16,55
+16,Customer 16,customer16@email.com,123-456-1016,,Finance,2020-01-17,4
+17,Customer 17,customer17@email.com,123-456-1017,,Healthcare,2020-01-18,15
+18,Customer 18,customer18@email.com,123-456-1018,Company 8,Retail,2020-01-19,57
+19,Customer 19,customer19@email.com,123-456-1019,,Education,2020-01-20,94
+20,Customer 20,customer20@email.com,123-456-1020,,Technology,2020-01-21,96
+21,Customer 21,customer21@email.com,123-456-1021,Company 1,Finance,2020-01-22,63
+22,Customer 22,customer22@email.com,123-456-1022,,Healthcare,2020-01-23,76
+23,Customer 23,customer23@email.com,123-456-1023,,Retail,2020-01-24,36
+24,Customer 24,customer24@email.com,123-456-1024,Company 4,Education,2020-01-25,49
+25,Customer 25,customer25@email.com,123-456-1025,,Technology,2020-01-26,47
+26,Customer 26,customer26@email.com,123-456-1026,,Finance,2020-01-27,90
+27,Customer 27,customer27@email.com,123-456-1027,Company 7,Healthcare,2020-01-28,13
+28,Customer 28,customer28@email.com,123-456-1028,,Retail,2020-01-29,39
+29,Customer 29,customer29@email.com,123-456-1029,,Education,2020-01-30,1
+30,Customer 30,customer30@email.com,123-456-1030,Company 0,Technology,2020-01-31,31
+31,Customer 31,customer31@email.com,123-456-1031,,Finance,2020-02-01,67
+32,Customer 32,customer32@email.com,123-456-1032,,Healthcare,2020-02-02,58
+33,Customer 33,customer33@email.com,123-456-1033,Company 3,Retail,2020-02-03,34
+34,Customer 34,customer34@email.com,123-456-1034,,Education,2020-02-04,14
+35,Customer 35,customer35@email.com,123-456-1035,,Technology,2020-02-05,62
+36,Customer 36,customer36@email.com,123-456-1036,Company 6,Finance,2020-02-06,87
+37,Customer 37,customer37@email.com,123-456-1037,,Healthcare,2020-02-07,7
+38,Customer 38,customer38@email.com,123-456-1038,,Retail,2020-02-08,50
+39,Customer 39,customer39@email.com,123-456-1039,Company 9,Education,2020-02-09,29
+40,Customer 40,customer40@email.com,123-456-1040,,Technology,2020-02-10,63
+41,Customer 41,customer41@email.com,123-456-1041,,Finance,2020-02-11,52
+42,Customer 42,customer42@email.com,123-456-1042,Company 2,Healthcare,2020-02-12,39
+43,Customer 43,customer43@email.com,123-456-1043,,Retail,2020-02-13,13
+44,Customer 44,customer44@email.com,123-456-1044,,Education,2020-02-14,74
+45,Customer 45,customer45@email.com,123-456-1045,Company 5,Technology,2020-02-15,72
+46,Customer 46,customer46@email.com,123-456-1046,,Finance,2020-02-16,78
+47,Customer 47,customer47@email.com,123-456-1047,,Healthcare,2020-02-17,54
+48,Customer 48,customer48@email.com,123-456-1048,Company 8,Retail,2020-02-18,21
+49,Customer 49,customer49@email.com,123-456-1049,,Education,2020-02-19,76
+50,Duplicate Customer,customer50@email.com,123-456-1050,,Technology,2020-02-20,16
+51,Customer 51,customer51@email.com,123-456-1051,Company 1,Finance,2020-02-21,53
+52,Customer 52,customer52@email.com,123-456-1052,,Healthcare,2020-02-22,19
+53,Customer 53,customer53@email.com,123-456-1053,,Retail,2020-02-23,70
+54,Customer 54,customer54@email.com,123-456-1054,Company 4,Education,2020-02-24,8
+55,Customer 55,customer55@email.com,123-456-1055,,Technology,2020-02-25,59
+56,Customer 56,customer56@email.com,123-456-1056,,Finance,2020-02-26,6
+57,Customer 57,customer57@email.com,123-456-1057,Company 7,Healthcare,2020-02-27,6
+58,Customer 58,customer58@email.com,123-456-1058,,Retail,2020-02-28,86
+59,Customer 59,customer59@email.com,123-456-1059,,Education,2020-02-29,58
+60,Customer 60,customer60@email.com,123-456-1060,Company 0,Technology,2020-03-01,57
+61,Customer 61,customer61@email.com,123-456-1061,,Finance,2020-03-02,83
+62,Customer 62,customer62@email.com,123-456-1062,,Healthcare,2020-03-03,67
+63,Customer 63,customer63@email.com,123-456-1063,Company 3,Retail,2020-03-04,38
+64,Customer 64,customer64@email.com,123-456-1064,,Education,2020-03-05,1
+65,Customer 65,customer65@email.com,123-456-1065,,Technology,2020-03-06,37
+66,Customer 66,customer66@email.com,123-456-1066,Company 6,Finance,2020-03-07,17
+67,Customer 67,customer67@email.com,123-456-1067,,Healthcare,2020-03-08,16
+68,Customer 68,customer68@email.com,123-456-1068,,Retail,2020-03-09,71
+69,Customer 69,customer69@email.com,123-456-1069,Company 9,Education,2020-03-10,3
+70,Customer 70,customer70@email.com,123-456-1070,,Technology,2020-03-11,12
+71,Customer 71,customer71@email.com,123-456-1071,,Finance,2020-03-12,14
+72,Customer 72,customer72@email.com,123-456-1072,Company 2,Healthcare,2020-03-13,65
+73,Customer 73,customer73@email.com,123-456-1073,,Retail,2020-03-14,2
+74,Customer 74,customer74@email.com,123-456-1074,,Education,2020-03-15,33
+75,Customer 75,customer75@email.com,123-456-1075,Company 5,Technology,2020-03-16,30
+76,Customer 76,customer76@email.com,123-456-1076,,Finance,2020-03-17,74
+77,Customer 77,customer77@email.com,123-456-1077,,Healthcare,2020-03-18,10
+78,Customer 78,customer78@email.com,123-456-1078,Company 8,Retail,2020-03-19,24
+79,Customer 79,customer79@email.com,123-456-1079,,Education,2020-03-20,43
+80,Customer 80,customer80@email.com,123-456-1080,,Technology,2020-03-21,15
+81,Customer 81,customer81@email.com,123-456-1081,Company 1,Finance,2020-03-22,77
+82,Customer 82,customer82@email.com,123-456-1082,,Healthcare,2020-03-23,89
+83,Customer 83,customer83@email.com,123-456-1083,,Retail,2020-03-24,61
+84,Customer 84,customer84@email.com,123-456-1084,Company 4,Education,2020-03-25,50
+85,Customer 85,customer85@email.com,123-456-1085,,Technology,2020-03-26,86
+86,Customer 86,customer86@email.com,123-456-1086,,Finance,2020-03-27,94
+87,Customer 87,customer87@email.com,123-456-1087,Company 7,Healthcare,2020-03-28,99
+88,Customer 88,customer88@email.com,123-456-1088,,Retail,2020-03-29,83
+89,Customer 89,customer89@email.com,123-456-1089,,Education,2020-03-30,84
+90,Customer 90,customer90@email.com,123-456-1090,Company 0,Technology,2020-03-31,53
+91,Customer 91,customer91@email.com,123-456-1091,,Finance,2020-04-01,26
+92,Customer 92,customer92@email.com,123-456-1092,,Healthcare,2020-04-02,79
+93,Customer 93,customer93@email.com,123-456-1093,Company 3,Retail,2020-04-03,99
+94,Customer 94,customer94@email.com,123-456-1094,,Education,2020-04-04,90
+95,Customer 95,customer95@email.com,123-456-1095,,Technology,2020-04-05,69
+96,Customer 96,customer96@email.com,123-456-1096,Company 6,Finance,2020-04-06,70
+97,Customer 97,customer97@email.com,123-456-1097,,Healthcare,2020-04-07,67
+98,Customer 98,customer98@email.com,123-456-1098,,Retail,2020-04-08,73
+99,Customer 99,customer99@email.com,123-456-1099,Company 9,Education,2020-04-09,55
+100,Duplicate Customer,customer100@email.com,,,Technology,2020-04-10,33
+101,Customer 101,customer101@email.com,123-456-1101,,Finance,2020-04-11,9
+102,Customer 102,customer102@email.com,123-456-1102,Company 2,Healthcare,2020-04-12,95
+103,Customer 103,customer103@email.com,123-456-1103,,Retail,2020-04-13,5
+104,Customer 104,customer104@email.com,123-456-1104,,Education,2020-04-14,23
+105,Customer 105,customer105@email.com,123-456-1105,Company 5,Technology,2020-04-15,81
+106,Customer 106,customer106@email.com,123-456-1106,,Finance,2020-04-16,71
+107,Customer 107,customer107@email.com,123-456-1107,,Healthcare,2020-04-17,64
+108,Customer 108,customer108@email.com,123-456-1108,Company 8,Retail,2020-04-18,4
+109,Customer 109,customer109@email.com,123-456-1109,,Education,2020-04-19,70
+110,Customer 110,customer110@email.com,123-456-1110,,Technology,2020-04-20,61
+111,Customer 111,customer111@email.com,123-456-1111,Company 1,Finance,2020-04-21,22
+112,Customer 112,customer112@email.com,123-456-1112,,Healthcare,2020-04-22,81
+113,Customer 113,customer113@email.com,123-456-1113,,Retail,2020-04-23,50
+114,Customer 114,customer114@email.com,123-456-1114,Company 4,Education,2020-04-24,35
+115,Customer 115,customer115@email.com,123-456-1115,,Technology,2020-04-25,7
+116,Customer 116,customer116@email.com,123-456-1116,,Finance,2020-04-26,47
+117,Customer 117,customer117@email.com,123-456-1117,Company 7,Healthcare,2020-04-27,42
+118,Customer 118,customer118@email.com,123-456-1118,,Retail,2020-04-28,62
+119,Customer 119,customer119@email.com,123-456-1119,,Education,2020-04-29,79
+120,Customer 120,customer120@email.com,123-456-1120,Company 0,Technology,2020-04-30,55
+121,Customer 121,customer121@email.com,123-456-1121,,Finance,2020-05-01,23
+122,Customer 122,customer122@email.com,123-456-1122,,Healthcare,2020-05-02,86
+123,Customer 123,customer123@email.com,123-456-1123,Company 3,Retail,2020-05-03,6
+124,Customer 124,customer124@email.com,123-456-1124,,Education,2020-05-04,38
+125,Customer 125,customer125@email.com,123-456-1125,,Technology,2020-05-05,51
+126,Customer 126,customer126@email.com,123-456-1126,Company 6,Finance,2020-05-06,89
+127,Customer 127,customer127@email.com,123-456-1127,,Healthcare,2020-05-07,63
+128,Customer 128,customer128@email.com,123-456-1128,,Retail,2020-05-08,53
+129,Customer 129,customer129@email.com,123-456-1129,Company 9,Education,2020-05-09,93
+130,Customer 130,customer130@email.com,123-456-1130,,Technology,2020-05-10,58
+131,Customer 131,customer131@email.com,123-456-1131,,Finance,2020-05-11,45
+132,Customer 132,customer132@email.com,123-456-1132,Company 2,Healthcare,2020-05-12,56
+133,Customer 133,customer133@email.com,123-456-1133,,Retail,2020-05-13,3
+134,Customer 134,customer134@email.com,123-456-1134,,Education,2020-05-14,89
+135,Customer 135,customer135@email.com,123-456-1135,Company 5,Technology,2020-05-15,76
+136,Customer 136,customer136@email.com,123-456-1136,,Finance,2020-05-16,99
+137,Customer 137,customer137@email.com,123-456-1137,,Healthcare,2020-05-17,79
+138,Customer 138,customer138@email.com,123-456-1138,Company 8,Retail,2020-05-18,6
+139,Customer 139,customer139@email.com,123-456-1139,,Education,2020-05-19,44
+140,Customer 140,customer140@email.com,123-456-1140,,Technology,2020-05-20,52
+141,Customer 141,customer141@email.com,123-456-1141,Company 1,Finance,2020-05-21,78
+142,Customer 142,customer142@email.com,123-456-1142,,Healthcare,2020-05-22,41
+143,Customer 143,customer143@email.com,123-456-1143,,Retail,2020-05-23,88
+144,Customer 144,customer144@email.com,123-456-1144,Company 4,Education,2020-05-24,42
+145,Customer 145,customer145@email.com,123-456-1145,,Technology,2020-05-25,76
+146,Customer 146,customer146@email.com,123-456-1146,,Finance,2020-05-26,97
+147,Customer 147,customer147@email.com,123-456-1147,Company 7,Healthcare,2020-05-27,63
+148,Customer 148,customer148@email.com,123-456-1148,,Retail,2020-05-28,25
+149,Customer 149,customer149@email.com,123-456-1149,,Education,2020-05-29,50
+150,Duplicate Customer,customer150@email.com,123-456-1150,Company 0,Technology,2020-05-30,55
+151,Customer 151,customer151@email.com,123-456-1151,,Finance,2020-05-31,62
+152,Customer 152,customer152@email.com,123-456-1152,,Healthcare,2020-06-01,24
+153,Customer 153,customer153@email.com,123-456-1153,Company 3,Retail,2020-06-02,81
+154,Customer 154,customer154@email.com,123-456-1154,,Education,2020-06-03,95
+155,Customer 155,customer155@email.com,123-456-1155,,Technology,2020-06-04,7
+156,Customer 156,customer156@email.com,123-456-1156,Company 6,Finance,2020-06-05,17
+157,Customer 157,customer157@email.com,123-456-1157,,Healthcare,2020-06-06,95
+158,Customer 158,customer158@email.com,123-456-1158,,Retail,2020-06-07,44
+159,Customer 159,customer159@email.com,123-456-1159,Company 9,Education,2020-06-08,67
+160,Customer 160,customer160@email.com,123-456-1160,,Technology,2020-06-09,13
+161,Customer 161,customer161@email.com,123-456-1161,,Finance,2020-06-10,95
+162,Customer 162,customer162@email.com,123-456-1162,Company 2,Healthcare,2020-06-11,45
+163,Customer 163,customer163@email.com,123-456-1163,,Retail,2020-06-12,63
+164,Customer 164,customer164@email.com,123-456-1164,,Education,2020-06-13,0
+165,Customer 165,customer165@email.com,123-456-1165,Company 5,Technology,2020-06-14,61
+166,Customer 166,customer166@email.com,123-456-1166,,Finance,2020-06-15,34
+167,Customer 167,customer167@email.com,123-456-1167,,Healthcare,2020-06-16,62
+168,Customer 168,customer168@email.com,123-456-1168,Company 8,Retail,2020-06-17,70
+169,Customer 169,customer169@email.com,123-456-1169,,Education,2020-06-18,43
+170,Customer 170,customer170@email.com,123-456-1170,,Technology,2020-06-19,82
+171,Customer 171,customer171@email.com,123-456-1171,Company 1,Finance,2020-06-20,52
+172,Customer 172,customer172@email.com,123-456-1172,,Healthcare,2020-06-21,76
+173,Customer 173,customer173@email.com,123-456-1173,,Retail,2020-06-22,85
+174,Customer 174,customer174@email.com,123-456-1174,Company 4,Education,2020-06-23,71
+175,Customer 175,customer175@email.com,123-456-1175,,Technology,2020-06-24,78
+176,Customer 176,customer176@email.com,123-456-1176,,Finance,2020-06-25,52
+177,Customer 177,customer177@email.com,123-456-1177,Company 7,Healthcare,2020-06-26,13
+178,Customer 178,customer178@email.com,123-456-1178,,Retail,2020-06-27,56
+179,Customer 179,customer179@email.com,123-456-1179,,Education,2020-06-28,35
+180,Customer 180,customer180@email.com,123-456-1180,Company 0,Technology,2020-06-29,33
+181,Customer 181,customer181@email.com,123-456-1181,,Finance,2020-06-30,35
+182,Customer 182,customer182@email.com,123-456-1182,,Healthcare,2020-07-01,37
+183,Customer 183,customer183@email.com,123-456-1183,Company 3,Retail,2020-07-02,15
+184,Customer 184,customer184@email.com,123-456-1184,,Education,2020-07-03,61
+185,Customer 185,customer185@email.com,123-456-1185,,Technology,2020-07-04,88
+186,Customer 186,customer186@email.com,123-456-1186,Company 6,Finance,2020-07-05,20
+187,Customer 187,customer187@email.com,123-456-1187,,Healthcare,2020-07-06,18
+188,Customer 188,customer188@email.com,123-456-1188,,Retail,2020-07-07,69
+189,Customer 189,customer189@email.com,123-456-1189,Company 9,Education,2020-07-08,97
+190,Customer 190,customer190@email.com,123-456-1190,,Technology,2020-07-09,58
+191,Customer 191,customer191@email.com,123-456-1191,,Finance,2020-07-10,5
+192,Customer 192,customer192@email.com,123-456-1192,Company 2,Healthcare,2020-07-11,8
+193,Customer 193,customer193@email.com,123-456-1193,,Retail,2020-07-12,1
+194,Customer 194,customer194@email.com,123-456-1194,,Education,2020-07-13,66
+195,Customer 195,customer195@email.com,123-456-1195,Company 5,Technology,2020-07-14,36
+196,Customer 196,customer196@email.com,123-456-1196,,Finance,2020-07-15,25
+197,Customer 197,customer197@email.com,123-456-1197,,Healthcare,2020-07-16,18
+198,Customer 198,customer198@email.com,123-456-1198,Company 8,Retail,2020-07-17,96
+199,Customer 199,customer199@email.com,123-456-1199,,Education,2020-07-18,75
+200,Duplicate Customer,customer200@email.com,,,Technology,2020-07-19,12
+201,Customer 201,customer201@email.com,123-456-1201,Company 1,Finance,2020-07-20,72
+202,Customer 202,customer202@email.com,123-456-1202,,Healthcare,2020-07-21,94
+203,Customer 203,customer203@email.com,123-456-1203,,Retail,2020-07-22,56
+204,Customer 204,customer204@email.com,123-456-1204,Company 4,Education,2020-07-23,5
+205,Customer 205,customer205@email.com,123-456-1205,,Technology,2020-07-24,96
+206,Customer 206,customer206@email.com,123-456-1206,,Finance,2020-07-25,3
+207,Customer 207,customer207@email.com,123-456-1207,Company 7,Healthcare,2020-07-26,30
+208,Customer 208,customer208@email.com,123-456-1208,,Retail,2020-07-27,49
+209,Customer 209,customer209@email.com,123-456-1209,,Education,2020-07-28,19
+210,Customer 210,customer210@email.com,123-456-1210,Company 0,Technology,2020-07-29,42
+211,Customer 211,customer211@email.com,123-456-1211,,Finance,2020-07-30,95
+212,Customer 212,customer212@email.com,123-456-1212,,Healthcare,2020-07-31,61
+213,Customer 213,customer213@email.com,123-456-1213,Company 3,Retail,2020-08-01,85
+214,Customer 214,customer214@email.com,123-456-1214,,Education,2020-08-02,35
+215,Customer 215,customer215@email.com,123-456-1215,,Technology,2020-08-03,97
+216,Customer 216,customer216@email.com,123-456-1216,Company 6,Finance,2020-08-04,23
+217,Customer 217,customer217@email.com,123-456-1217,,Healthcare,2020-08-05,37
+218,Customer 218,customer218@email.com,123-456-1218,,Retail,2020-08-06,44
+219,Customer 219,customer219@email.com,123-456-1219,Company 9,Education,2020-08-07,44
+220,Customer 220,customer220@email.com,123-456-1220,,Technology,2020-08-08,76
+221,Customer 221,customer221@email.com,123-456-1221,,Finance,2020-08-09,51
+222,Customer 222,customer222@email.com,123-456-1222,Company 2,Healthcare,2020-08-10,6
+223,Customer 223,customer223@email.com,123-456-1223,,Retail,2020-08-11,96
+224,Customer 224,customer224@email.com,123-456-1224,,Education,2020-08-12,24
+225,Customer 225,customer225@email.com,123-456-1225,Company 5,Technology,2020-08-13,11
+226,Customer 226,customer226@email.com,123-456-1226,,Finance,2020-08-14,6
+227,Customer 227,customer227@email.com,123-456-1227,,Healthcare,2020-08-15,19
+228,Customer 228,customer228@email.com,123-456-1228,Company 8,Retail,2020-08-16,29
+229,Customer 229,customer229@email.com,123-456-1229,,Education,2020-08-17,91
+230,Customer 230,customer230@email.com,123-456-1230,,Technology,2020-08-18,96
+231,Customer 231,customer231@email.com,123-456-1231,Company 1,Finance,2020-08-19,42
+232,Customer 232,customer232@email.com,123-456-1232,,Healthcare,2020-08-20,74
+233,Customer 233,customer233@email.com,123-456-1233,,Retail,2020-08-21,20
+234,Customer 234,customer234@email.com,123-456-1234,Company 4,Education,2020-08-22,58
+235,Customer 235,customer235@email.com,123-456-1235,,Technology,2020-08-23,10
+236,Customer 236,customer236@email.com,123-456-1236,,Finance,2020-08-24,94
+237,Customer 237,customer237@email.com,123-456-1237,Company 7,Healthcare,2020-08-25,15
+238,Customer 238,customer238@email.com,123-456-1238,,Retail,2020-08-26,79
+239,Customer 239,customer239@email.com,123-456-1239,,Education,2020-08-27,90
+240,Customer 240,customer240@email.com,123-456-1240,Company 0,Technology,2020-08-28,64
+241,Customer 241,customer241@email.com,123-456-1241,,Finance,2020-08-29,53
+242,Customer 242,customer242@email.com,123-456-1242,,Healthcare,2020-08-30,74
+243,Customer 243,customer243@email.com,123-456-1243,Company 3,Retail,2020-08-31,68
+244,Customer 244,customer244@email.com,123-456-1244,,Education,2020-09-01,6
+245,Customer 245,customer245@email.com,123-456-1245,,Technology,2020-09-02,72
+246,Customer 246,customer246@email.com,123-456-1246,Company 6,Finance,2020-09-03,6
+247,Customer 247,customer247@email.com,123-456-1247,,Healthcare,2020-09-04,28
+248,Customer 248,customer248@email.com,123-456-1248,,Retail,2020-09-05,28
+249,Customer 249,customer249@email.com,123-456-1249,Company 9,Education,2020-09-06,13
+250,Duplicate Customer,customer250@email.com,123-456-1250,,Technology,2020-09-07,80
+251,Customer 251,customer251@email.com,123-456-1251,,Finance,2020-09-08,27
+252,Customer 252,customer252@email.com,123-456-1252,Company 2,Healthcare,2020-09-09,99
+253,Customer 253,customer253@email.com,123-456-1253,,Retail,2020-09-10,31
+254,Customer 254,customer254@email.com,123-456-1254,,Education,2020-09-11,61
+255,Customer 255,customer255@email.com,123-456-1255,Company 5,Technology,2020-09-12,36
+256,Customer 256,customer256@email.com,123-456-1256,,Finance,2020-09-13,53
+257,Customer 257,customer257@email.com,123-456-1257,,Healthcare,2020-09-14,80
+258,Customer 258,customer258@email.com,123-456-1258,Company 8,Retail,2020-09-15,66
+259,Customer 259,customer259@email.com,123-456-1259,,Education,2020-09-16,62
+260,Customer 260,customer260@email.com,123-456-1260,,Technology,2020-09-17,5
+261,Customer 261,customer261@email.com,123-456-1261,Company 1,Finance,2020-09-18,51
+262,Customer 262,customer262@email.com,123-456-1262,,Healthcare,2020-09-19,32
+263,Customer 263,customer263@email.com,123-456-1263,,Retail,2020-09-20,90
+264,Customer 264,customer264@email.com,123-456-1264,Company 4,Education,2020-09-21,1
+265,Customer 265,customer265@email.com,123-456-1265,,Technology,2020-09-22,94
+266,Customer 266,customer266@email.com,123-456-1266,,Finance,2020-09-23,85
+267,Customer 267,customer267@email.com,123-456-1267,Company 7,Healthcare,2020-09-24,72
+268,Customer 268,customer268@email.com,123-456-1268,,Retail,2020-09-25,25
+269,Customer 269,customer269@email.com,123-456-1269,,Education,2020-09-26,97
+270,Customer 270,customer270@email.com,123-456-1270,Company 0,Technology,2020-09-27,19
+271,Customer 271,customer271@email.com,123-456-1271,,Finance,2020-09-28,67
+272,Customer 272,customer272@email.com,123-456-1272,,Healthcare,2020-09-29,89
+273,Customer 273,customer273@email.com,123-456-1273,Company 3,Retail,2020-09-30,9
+274,Customer 274,customer274@email.com,123-456-1274,,Education,2020-10-01,25
+275,Customer 275,customer275@email.com,123-456-1275,,Technology,2020-10-02,74
+276,Customer 276,customer276@email.com,123-456-1276,Company 6,Finance,2020-10-03,45
+277,Customer 277,customer277@email.com,123-456-1277,,Healthcare,2020-10-04,79
+278,Customer 278,customer278@email.com,123-456-1278,,Retail,2020-10-05,82
+279,Customer 279,customer279@email.com,123-456-1279,Company 9,Education,2020-10-06,40
+280,Customer 280,customer280@email.com,123-456-1280,,Technology,2020-10-07,54
+281,Customer 281,customer281@email.com,123-456-1281,,Finance,2020-10-08,21
+282,Customer 282,customer282@email.com,123-456-1282,Company 2,Healthcare,2020-10-09,94
+283,Customer 283,customer283@email.com,123-456-1283,,Retail,2020-10-10,13
+284,Customer 284,customer284@email.com,123-456-1284,,Education,2020-10-11,21
+285,Customer 285,customer285@email.com,123-456-1285,Company 5,Technology,2020-10-12,8
+286,Customer 286,customer286@email.com,123-456-1286,,Finance,2020-10-13,7
+287,Customer 287,customer287@email.com,123-456-1287,,Healthcare,2020-10-14,61
+288,Customer 288,customer288@email.com,123-456-1288,Company 8,Retail,2020-10-15,20
+289,Customer 289,customer289@email.com,123-456-1289,,Education,2020-10-16,34
+290,Customer 290,customer290@email.com,123-456-1290,,Technology,2020-10-17,88
+291,Customer 291,customer291@email.com,123-456-1291,Company 1,Finance,2020-10-18,58
+292,Customer 292,customer292@email.com,123-456-1292,,Healthcare,2020-10-19,93
+293,Customer 293,customer293@email.com,123-456-1293,,Retail,2020-10-20,86
+294,Customer 294,customer294@email.com,123-456-1294,Company 4,Education,2020-10-21,72
+295,Customer 295,customer295@email.com,123-456-1295,,Technology,2020-10-22,56
+296,Customer 296,customer296@email.com,123-456-1296,,Finance,2020-10-23,80
+297,Customer 297,customer297@email.com,123-456-1297,Company 7,Healthcare,2020-10-24,61
+298,Customer 298,customer298@email.com,123-456-1298,,Retail,2020-10-25,60
+299,Customer 299,customer299@email.com,123-456-1299,,Education,2020-10-26,39
+300,Duplicate Customer,customer300@email.com,,Company 0,Technology,2020-10-27,98
+301,Customer 301,customer301@email.com,123-456-1301,,Finance,2020-10-28,13
+302,Customer 302,customer302@email.com,123-456-1302,,Healthcare,2020-10-29,73
+303,Customer 303,customer303@email.com,123-456-1303,Company 3,Retail,2020-10-30,77
+304,Customer 304,customer304@email.com,123-456-1304,,Education,2020-10-31,68
+305,Customer 305,customer305@email.com,123-456-1305,,Technology,2020-11-01,55
+306,Customer 306,customer306@email.com,123-456-1306,Company 6,Finance,2020-11-02,52
+307,Customer 307,customer307@email.com,123-456-1307,,Healthcare,2020-11-03,59
+308,Customer 308,customer308@email.com,123-456-1308,,Retail,2020-11-04,6
+309,Customer 309,customer309@email.com,123-456-1309,Company 9,Education,2020-11-05,2
+310,Customer 310,customer310@email.com,123-456-1310,,Technology,2020-11-06,16
+311,Customer 311,customer311@email.com,123-456-1311,,Finance,2020-11-07,73
+312,Customer 312,customer312@email.com,123-456-1312,Company 2,Healthcare,2020-11-08,29
+313,Customer 313,customer313@email.com,123-456-1313,,Retail,2020-11-09,26
+314,Customer 314,customer314@email.com,123-456-1314,,Education,2020-11-10,68
+315,Customer 315,customer315@email.com,123-456-1315,Company 5,Technology,2020-11-11,39
+316,Customer 316,customer316@email.com,123-456-1316,,Finance,2020-11-12,28
+317,Customer 317,customer317@email.com,123-456-1317,,Healthcare,2020-11-13,58
+318,Customer 318,customer318@email.com,123-456-1318,Company 8,Retail,2020-11-14,85
+319,Customer 319,customer319@email.com,123-456-1319,,Education,2020-11-15,46
+320,Customer 320,customer320@email.com,123-456-1320,,Technology,2020-11-16,44
+321,Customer 321,customer321@email.com,123-456-1321,Company 1,Finance,2020-11-17,57
+322,Customer 322,customer322@email.com,123-456-1322,,Healthcare,2020-11-18,20
+323,Customer 323,customer323@email.com,123-456-1323,,Retail,2020-11-19,50
+324,Customer 324,customer324@email.com,123-456-1324,Company 4,Education,2020-11-20,51
+325,Customer 325,customer325@email.com,123-456-1325,,Technology,2020-11-21,21
+326,Customer 326,customer326@email.com,123-456-1326,,Finance,2020-11-22,15
+327,Customer 327,customer327@email.com,123-456-1327,Company 7,Healthcare,2020-11-23,40
+328,Customer 328,customer328@email.com,123-456-1328,,Retail,2020-11-24,68
+329,Customer 329,customer329@email.com,123-456-1329,,Education,2020-11-25,79
+330,Customer 330,customer330@email.com,123-456-1330,Company 0,Technology,2020-11-26,38
+331,Customer 331,customer331@email.com,123-456-1331,,Finance,2020-11-27,47
+332,Customer 332,customer332@email.com,123-456-1332,,Healthcare,2020-11-28,96
+333,Customer 333,customer333@email.com,123-456-1333,Company 3,Retail,2020-11-29,49
+334,Customer 334,customer334@email.com,123-456-1334,,Education,2020-11-30,1
+335,Customer 335,customer335@email.com,123-456-1335,,Technology,2020-12-01,95
+336,Customer 336,customer336@email.com,123-456-1336,Company 6,Finance,2020-12-02,18
+337,Customer 337,customer337@email.com,123-456-1337,,Healthcare,2020-12-03,66
+338,Customer 338,customer338@email.com,123-456-1338,,Retail,2020-12-04,61
+339,Customer 339,customer339@email.com,123-456-1339,Company 9,Education,2020-12-05,21
+340,Customer 340,customer340@email.com,123-456-1340,,Technology,2020-12-06,99
+341,Customer 341,customer341@email.com,123-456-1341,,Finance,2020-12-07,97
+342,Customer 342,customer342@email.com,123-456-1342,Company 2,Healthcare,2020-12-08,13
+343,Customer 343,customer343@email.com,123-456-1343,,Retail,2020-12-09,88
+344,Customer 344,customer344@email.com,123-456-1344,,Education,2020-12-10,98
+345,Customer 345,customer345@email.com,123-456-1345,Company 5,Technology,2020-12-11,57
+346,Customer 346,customer346@email.com,123-456-1346,,Finance,2020-12-12,70
+347,Customer 347,customer347@email.com,123-456-1347,,Healthcare,2020-12-13,100
+348,Customer 348,customer348@email.com,123-456-1348,Company 8,Retail,2020-12-14,62
+349,Customer 349,customer349@email.com,123-456-1349,,Education,2020-12-15,89
+350,Duplicate Customer,customer350@email.com,123-456-1350,,Technology,2020-12-16,85
+351,Customer 351,customer351@email.com,123-456-1351,Company 1,Finance,2020-12-17,31
+352,Customer 352,customer352@email.com,123-456-1352,,Healthcare,2020-12-18,63
+353,Customer 353,customer353@email.com,123-456-1353,,Retail,2020-12-19,83
+354,Customer 354,customer354@email.com,123-456-1354,Company 4,Education,2020-12-20,7
+355,Customer 355,customer355@email.com,123-456-1355,,Technology,2020-12-21,11
+356,Customer 356,customer356@email.com,123-456-1356,,Finance,2020-12-22,52
+357,Customer 357,customer357@email.com,123-456-1357,Company 7,Healthcare,2020-12-23,62
+358,Customer 358,customer358@email.com,123-456-1358,,Retail,2020-12-24,60
+359,Customer 359,customer359@email.com,123-456-1359,,Education,2020-12-25,13
+360,Customer 360,customer360@email.com,123-456-1360,Company 0,Technology,2020-12-26,20
+361,Customer 361,customer361@email.com,123-456-1361,,Finance,2020-12-27,86
+362,Customer 362,customer362@email.com,123-456-1362,,Healthcare,2020-12-28,78
+363,Customer 363,customer363@email.com,123-456-1363,Company 3,Retail,2020-12-29,64
+364,Customer 364,customer364@email.com,123-456-1364,,Education,2020-12-30,73
+365,Customer 365,customer365@email.com,123-456-1365,,Technology,2020-12-31,69
+366,Customer 366,customer366@email.com,123-456-1366,Company 6,Finance,2021-01-01,60
+367,Customer 367,customer367@email.com,123-456-1367,,Healthcare,2021-01-02,3
+368,Customer 368,customer368@email.com,123-456-1368,,Retail,2021-01-03,85
+369,Customer 369,customer369@email.com,123-456-1369,Company 9,Education,2021-01-04,92
+370,Customer 370,customer370@email.com,123-456-1370,,Technology,2021-01-05,72
+371,Customer 371,customer371@email.com,123-456-1371,,Finance,2021-01-06,8
+372,Customer 372,customer372@email.com,123-456-1372,Company 2,Healthcare,2021-01-07,35
+373,Customer 373,customer373@email.com,123-456-1373,,Retail,2021-01-08,68
+374,Customer 374,customer374@email.com,123-456-1374,,Education,2021-01-09,62
+375,Customer 375,customer375@email.com,123-456-1375,Company 5,Technology,2021-01-10,72
+376,Customer 376,customer376@email.com,123-456-1376,,Finance,2021-01-11,54
+377,Customer 377,customer377@email.com,123-456-1377,,Healthcare,2021-01-12,85
+378,Customer 378,customer378@email.com,123-456-1378,Company 8,Retail,2021-01-13,59
+379,Customer 379,customer379@email.com,123-456-1379,,Education,2021-01-14,96
+380,Customer 380,customer380@email.com,123-456-1380,,Technology,2021-01-15,44
+381,Customer 381,customer381@email.com,123-456-1381,Company 1,Finance,2021-01-16,85
+382,Customer 382,customer382@email.com,123-456-1382,,Healthcare,2021-01-17,10
+383,Customer 383,customer383@email.com,123-456-1383,,Retail,2021-01-18,71
+384,Customer 384,customer384@email.com,123-456-1384,Company 4,Education,2021-01-19,1
+385,Customer 385,customer385@email.com,123-456-1385,,Technology,2021-01-20,68
+386,Customer 386,customer386@email.com,123-456-1386,,Finance,2021-01-21,81
+387,Customer 387,customer387@email.com,123-456-1387,Company 7,Healthcare,2021-01-22,62
+388,Customer 388,customer388@email.com,123-456-1388,,Retail,2021-01-23,61
+389,Customer 389,customer389@email.com,123-456-1389,,Education,2021-01-24,2
+390,Customer 390,customer390@email.com,123-456-1390,Company 0,Technology,2021-01-25,11
+391,Customer 391,customer391@email.com,123-456-1391,,Finance,2021-01-26,25
+392,Customer 392,customer392@email.com,123-456-1392,,Healthcare,2021-01-27,57
+393,Customer 393,customer393@email.com,123-456-1393,Company 3,Retail,2021-01-28,54
+394,Customer 394,customer394@email.com,123-456-1394,,Education,2021-01-29,12
+395,Customer 395,customer395@email.com,123-456-1395,,Technology,2021-01-30,80
+396,Customer 396,customer396@email.com,123-456-1396,Company 6,Finance,2021-01-31,100
+397,Customer 397,customer397@email.com,123-456-1397,,Healthcare,2021-02-01,94
+398,Customer 398,customer398@email.com,123-456-1398,,Retail,2021-02-02,23
+399,Customer 399,customer399@email.com,123-456-1399,Company 9,Education,2021-02-03,3
+400,Duplicate Customer,customer400@email.com,,,Technology,2021-02-04,19
+401,Customer 401,customer401@email.com,123-456-1401,,Finance,2021-02-05,30
+402,Customer 402,customer402@email.com,123-456-1402,Company 2,Healthcare,2021-02-06,53
+403,Customer 403,customer403@email.com,123-456-1403,,Retail,2021-02-07,32
+404,Customer 404,customer404@email.com,123-456-1404,,Education,2021-02-08,6
+405,Customer 405,customer405@email.com,123-456-1405,Company 5,Technology,2021-02-09,48
+406,Customer 406,customer406@email.com,123-456-1406,,Finance,2021-02-10,19
+407,Customer 407,customer407@email.com,123-456-1407,,Healthcare,2021-02-11,96
+408,Customer 408,customer408@email.com,123-456-1408,Company 8,Retail,2021-02-12,78
+409,Customer 409,customer409@email.com,123-456-1409,,Education,2021-02-13,32
+410,Customer 410,customer410@email.com,123-456-1410,,Technology,2021-02-14,93
+411,Customer 411,customer411@email.com,123-456-1411,Company 1,Finance,2021-02-15,80
+412,Customer 412,customer412@email.com,123-456-1412,,Healthcare,2021-02-16,91
+413,Customer 413,customer413@email.com,123-456-1413,,Retail,2021-02-17,47
+414,Customer 414,customer414@email.com,123-456-1414,Company 4,Education,2021-02-18,80
+415,Customer 415,customer415@email.com,123-456-1415,,Technology,2021-02-19,97
+416,Customer 416,customer416@email.com,123-456-1416,,Finance,2021-02-20,90
+417,Customer 417,customer417@email.com,123-456-1417,Company 7,Healthcare,2021-02-21,85
+418,Customer 418,customer418@email.com,123-456-1418,,Retail,2021-02-22,78
+419,Customer 419,customer419@email.com,123-456-1419,,Education,2021-02-23,11
+420,Customer 420,customer420@email.com,123-456-1420,Company 0,Technology,2021-02-24,31
+421,Customer 421,customer421@email.com,123-456-1421,,Finance,2021-02-25,15
+422,Customer 422,customer422@email.com,123-456-1422,,Healthcare,2021-02-26,94
+423,Customer 423,customer423@email.com,123-456-1423,Company 3,Retail,2021-02-27,72
+424,Customer 424,customer424@email.com,123-456-1424,,Education,2021-02-28,87
+425,Customer 425,customer425@email.com,123-456-1425,,Technology,2021-03-01,72
+426,Customer 426,customer426@email.com,123-456-1426,Company 6,Finance,2021-03-02,30
+427,Customer 427,customer427@email.com,123-456-1427,,Healthcare,2021-03-03,52
+428,Customer 428,customer428@email.com,123-456-1428,,Retail,2021-03-04,13
+429,Customer 429,customer429@email.com,123-456-1429,Company 9,Education,2021-03-05,100
+430,Customer 430,customer430@email.com,123-456-1430,,Technology,2021-03-06,6
+431,Customer 431,customer431@email.com,123-456-1431,,Finance,2021-03-07,30
+432,Customer 432,customer432@email.com,123-456-1432,Company 2,Healthcare,2021-03-08,57
+433,Customer 433,customer433@email.com,123-456-1433,,Retail,2021-03-09,31
+434,Customer 434,customer434@email.com,123-456-1434,,Education,2021-03-10,18
+435,Customer 435,customer435@email.com,123-456-1435,Company 5,Technology,2021-03-11,4
+436,Customer 436,customer436@email.com,123-456-1436,,Finance,2021-03-12,59
+437,Customer 437,customer437@email.com,123-456-1437,,Healthcare,2021-03-13,95
+438,Customer 438,customer438@email.com,123-456-1438,Company 8,Retail,2021-03-14,38
+439,Customer 439,customer439@email.com,123-456-1439,,Education,2021-03-15,39
+440,Customer 440,customer440@email.com,123-456-1440,,Technology,2021-03-16,95
+441,Customer 441,customer441@email.com,123-456-1441,Company 1,Finance,2021-03-17,38
+442,Customer 442,customer442@email.com,123-456-1442,,Healthcare,2021-03-18,39
+443,Customer 443,customer443@email.com,123-456-1443,,Retail,2021-03-19,2
+444,Customer 444,customer444@email.com,123-456-1444,Company 4,Education,2021-03-20,0
+445,Customer 445,customer445@email.com,123-456-1445,,Technology,2021-03-21,62
+446,Customer 446,customer446@email.com,123-456-1446,,Finance,2021-03-22,70
+447,Customer 447,customer447@email.com,123-456-1447,Company 7,Healthcare,2021-03-23,2
+448,Customer 448,customer448@email.com,123-456-1448,,Retail,2021-03-24,59
+449,Customer 449,customer449@email.com,123-456-1449,,Education,2021-03-25,95
+450,Duplicate Customer,customer450@email.com,123-456-1450,Company 0,Technology,2021-03-26,93
+451,Customer 451,customer451@email.com,123-456-1451,,Finance,2021-03-27,84
+452,Customer 452,customer452@email.com,123-456-1452,,Healthcare,2021-03-28,93
+453,Customer 453,customer453@email.com,123-456-1453,Company 3,Retail,2021-03-29,47
+454,Customer 454,customer454@email.com,123-456-1454,,Education,2021-03-30,35
+455,Customer 455,customer455@email.com,123-456-1455,,Technology,2021-03-31,47
+456,Customer 456,customer456@email.com,123-456-1456,Company 6,Finance,2021-04-01,71
+457,Customer 457,customer457@email.com,123-456-1457,,Healthcare,2021-04-02,92
+458,Customer 458,customer458@email.com,123-456-1458,,Retail,2021-04-03,68
+459,Customer 459,customer459@email.com,123-456-1459,Company 9,Education,2021-04-04,33
+460,Customer 460,customer460@email.com,123-456-1460,,Technology,2021-04-05,47
+461,Customer 461,customer461@email.com,123-456-1461,,Finance,2021-04-06,5
+462,Customer 462,customer462@email.com,123-456-1462,Company 2,Healthcare,2021-04-07,9
+463,Customer 463,customer463@email.com,123-456-1463,,Retail,2021-04-08,21
+464,Customer 464,customer464@email.com,123-456-1464,,Education,2021-04-09,52
+465,Customer 465,customer465@email.com,123-456-1465,Company 5,Technology,2021-04-10,34
+466,Customer 466,customer466@email.com,123-456-1466,,Finance,2021-04-11,94
+467,Customer 467,customer467@email.com,123-456-1467,,Healthcare,2021-04-12,70
+468,Customer 468,customer468@email.com,123-456-1468,Company 8,Retail,2021-04-13,55
+469,Customer 469,customer469@email.com,123-456-1469,,Education,2021-04-14,54
+470,Customer 470,customer470@email.com,123-456-1470,,Technology,2021-04-15,91
+471,Customer 471,customer471@email.com,123-456-1471,Company 1,Finance,2021-04-16,14
+472,Customer 472,customer472@email.com,123-456-1472,,Healthcare,2021-04-17,1
+473,Customer 473,customer473@email.com,123-456-1473,,Retail,2021-04-18,48
+474,Customer 474,customer474@email.com,123-456-1474,Company 4,Education,2021-04-19,76
+475,Customer 475,customer475@email.com,123-456-1475,,Technology,2021-04-20,70
+476,Customer 476,customer476@email.com,123-456-1476,,Finance,2021-04-21,84
+477,Customer 477,customer477@email.com,123-456-1477,Company 7,Healthcare,2021-04-22,22
+478,Customer 478,customer478@email.com,123-456-1478,,Retail,2021-04-23,37
+479,Customer 479,customer479@email.com,123-456-1479,,Education,2021-04-24,46
+480,Customer 480,customer480@email.com,123-456-1480,Company 0,Technology,2021-04-25,92
+481,Customer 481,customer481@email.com,123-456-1481,,Finance,2021-04-26,44
+482,Customer 482,customer482@email.com,123-456-1482,,Healthcare,2021-04-27,15
+483,Customer 483,customer483@email.com,123-456-1483,Company 3,Retail,2021-04-28,16
+484,Customer 484,customer484@email.com,123-456-1484,,Education,2021-04-29,78
+485,Customer 485,customer485@email.com,123-456-1485,,Technology,2021-04-30,28
+486,Customer 486,customer486@email.com,123-456-1486,Company 6,Finance,2021-05-01,96
+487,Customer 487,customer487@email.com,123-456-1487,,Healthcare,2021-05-02,75
+488,Customer 488,customer488@email.com,123-456-1488,,Retail,2021-05-03,93
+489,Customer 489,customer489@email.com,123-456-1489,Company 9,Education,2021-05-04,54
+490,Customer 490,customer490@email.com,123-456-1490,,Technology,2021-05-05,35
+491,Customer 491,customer491@email.com,123-456-1491,,Finance,2021-05-06,13
+492,Customer 492,customer492@email.com,123-456-1492,Company 2,Healthcare,2021-05-07,15
+493,Customer 493,customer493@email.com,123-456-1493,,Retail,2021-05-08,6
+494,Customer 494,customer494@email.com,123-456-1494,,Education,2021-05-09,82
+495,Customer 495,customer495@email.com,123-456-1495,Company 5,Technology,2021-05-10,38
+496,Customer 496,customer496@email.com,123-456-1496,,Finance,2021-05-11,51
+497,Customer 497,customer497@email.com,123-456-1497,,Healthcare,2021-05-12,82
+498,Customer 498,customer498@email.com,123-456-1498,Company 8,Retail,2021-05-13,90
+499,Customer 499,customer499@email.com,123-456-1499,,Education,2021-05-14,22
+500,Duplicate Customer,customer500@email.com,,,Technology,2021-05-15,13
+501,Customer 501,customer501@email.com,123-456-1501,Company 1,Finance,2021-05-16,58
+502,Customer 502,customer502@email.com,123-456-1502,,Healthcare,2021-05-17,31
+503,Customer 503,customer503@email.com,123-456-1503,,Retail,2021-05-18,22
+504,Customer 504,customer504@email.com,123-456-1504,Company 4,Education,2021-05-19,71
+505,Customer 505,customer505@email.com,123-456-1505,,Technology,2021-05-20,98
+506,Customer 506,customer506@email.com,123-456-1506,,Finance,2021-05-21,44
+507,Customer 507,customer507@email.com,123-456-1507,Company 7,Healthcare,2021-05-22,35
+508,Customer 508,customer508@email.com,123-456-1508,,Retail,2021-05-23,27
+509,Customer 509,customer509@email.com,123-456-1509,,Education,2021-05-24,84
+510,Customer 510,customer510@email.com,123-456-1510,Company 0,Technology,2021-05-25,73
+511,Customer 511,customer511@email.com,123-456-1511,,Finance,2021-05-26,17
+512,Customer 512,customer512@email.com,123-456-1512,,Healthcare,2021-05-27,41
+513,Customer 513,customer513@email.com,123-456-1513,Company 3,Retail,2021-05-28,6
+514,Customer 514,customer514@email.com,123-456-1514,,Education,2021-05-29,89
+515,Customer 515,customer515@email.com,123-456-1515,,Technology,2021-05-30,9
+516,Customer 516,customer516@email.com,123-456-1516,Company 6,Finance,2021-05-31,36
+517,Customer 517,customer517@email.com,123-456-1517,,Healthcare,2021-06-01,41
+518,Customer 518,customer518@email.com,123-456-1518,,Retail,2021-06-02,38
+519,Customer 519,customer519@email.com,123-456-1519,Company 9,Education,2021-06-03,36
+520,Customer 520,customer520@email.com,123-456-1520,,Technology,2021-06-04,49
+521,Customer 521,customer521@email.com,123-456-1521,,Finance,2021-06-05,22
+522,Customer 522,customer522@email.com,123-456-1522,Company 2,Healthcare,2021-06-06,96
+523,Customer 523,customer523@email.com,123-456-1523,,Retail,2021-06-07,30
+524,Customer 524,customer524@email.com,123-456-1524,,Education,2021-06-08,41
+525,Customer 525,customer525@email.com,123-456-1525,Company 5,Technology,2021-06-09,36
+526,Customer 526,customer526@email.com,123-456-1526,,Finance,2021-06-10,0
+527,Customer 527,customer527@email.com,123-456-1527,,Healthcare,2021-06-11,33
+528,Customer 528,customer528@email.com,123-456-1528,Company 8,Retail,2021-06-12,8
+529,Customer 529,customer529@email.com,123-456-1529,,Education,2021-06-13,66
+530,Customer 530,customer530@email.com,123-456-1530,,Technology,2021-06-14,94
+531,Customer 531,customer531@email.com,123-456-1531,Company 1,Finance,2021-06-15,53
+532,Customer 532,customer532@email.com,123-456-1532,,Healthcare,2021-06-16,55
+533,Customer 533,customer533@email.com,123-456-1533,,Retail,2021-06-17,15
+534,Customer 534,customer534@email.com,123-456-1534,Company 4,Education,2021-06-18,2
+535,Customer 535,customer535@email.com,123-456-1535,,Technology,2021-06-19,3
+536,Customer 536,customer536@email.com,123-456-1536,,Finance,2021-06-20,21
+537,Customer 537,customer537@email.com,123-456-1537,Company 7,Healthcare,2021-06-21,39
+538,Customer 538,customer538@email.com,123-456-1538,,Retail,2021-06-22,14
+539,Customer 539,customer539@email.com,123-456-1539,,Education,2021-06-23,44
+540,Customer 540,customer540@email.com,123-456-1540,Company 0,Technology,2021-06-24,63
+541,Customer 541,customer541@email.com,123-456-1541,,Finance,2021-06-25,80
+542,Customer 542,customer542@email.com,123-456-1542,,Healthcare,2021-06-26,11
+543,Customer 543,customer543@email.com,123-456-1543,Company 3,Retail,2021-06-27,97
+544,Customer 544,customer544@email.com,123-456-1544,,Education,2021-06-28,9
+545,Customer 545,customer545@email.com,123-456-1545,,Technology,2021-06-29,37
+546,Customer 546,customer546@email.com,123-456-1546,Company 6,Finance,2021-06-30,51
+547,Customer 547,customer547@email.com,123-456-1547,,Healthcare,2021-07-01,36
+548,Customer 548,customer548@email.com,123-456-1548,,Retail,2021-07-02,63
+549,Customer 549,customer549@email.com,123-456-1549,Company 9,Education,2021-07-03,7
+550,Duplicate Customer,customer550@email.com,123-456-1550,,Technology,2021-07-04,40
+551,Customer 551,customer551@email.com,123-456-1551,,Finance,2021-07-05,32
+552,Customer 552,customer552@email.com,123-456-1552,Company 2,Healthcare,2021-07-06,1
+553,Customer 553,customer553@email.com,123-456-1553,,Retail,2021-07-07,7
+554,Customer 554,customer554@email.com,123-456-1554,,Education,2021-07-08,23
+555,Customer 555,customer555@email.com,123-456-1555,Company 5,Technology,2021-07-09,76
+556,Customer 556,customer556@email.com,123-456-1556,,Finance,2021-07-10,90
+557,Customer 557,customer557@email.com,123-456-1557,,Healthcare,2021-07-11,40
+558,Customer 558,customer558@email.com,123-456-1558,Company 8,Retail,2021-07-12,96
+559,Customer 559,customer559@email.com,123-456-1559,,Education,2021-07-13,40
+560,Customer 560,customer560@email.com,123-456-1560,,Technology,2021-07-14,9
+561,Customer 561,customer561@email.com,123-456-1561,Company 1,Finance,2021-07-15,28
+562,Customer 562,customer562@email.com,123-456-1562,,Healthcare,2021-07-16,41
+563,Customer 563,customer563@email.com,123-456-1563,,Retail,2021-07-17,32
+564,Customer 564,customer564@email.com,123-456-1564,Company 4,Education,2021-07-18,97
+565,Customer 565,customer565@email.com,123-456-1565,,Technology,2021-07-19,45
+566,Customer 566,customer566@email.com,123-456-1566,,Finance,2021-07-20,59
+567,Customer 567,customer567@email.com,123-456-1567,Company 7,Healthcare,2021-07-21,57
+568,Customer 568,customer568@email.com,123-456-1568,,Retail,2021-07-22,47
+569,Customer 569,customer569@email.com,123-456-1569,,Education,2021-07-23,60
+570,Customer 570,customer570@email.com,123-456-1570,Company 0,Technology,2021-07-24,36
+571,Customer 571,customer571@email.com,123-456-1571,,Finance,2021-07-25,13
+572,Customer 572,customer572@email.com,123-456-1572,,Healthcare,2021-07-26,99
+573,Customer 573,customer573@email.com,123-456-1573,Company 3,Retail,2021-07-27,22
+574,Customer 574,customer574@email.com,123-456-1574,,Education,2021-07-28,62
+575,Customer 575,customer575@email.com,123-456-1575,,Technology,2021-07-29,82
+576,Customer 576,customer576@email.com,123-456-1576,Company 6,Finance,2021-07-30,68
+577,Customer 577,customer577@email.com,123-456-1577,,Healthcare,2021-07-31,57
+578,Customer 578,customer578@email.com,123-456-1578,,Retail,2021-08-01,32
+579,Customer 579,customer579@email.com,123-456-1579,Company 9,Education,2021-08-02,57
+580,Customer 580,customer580@email.com,123-456-1580,,Technology,2021-08-03,63
+581,Customer 581,customer581@email.com,123-456-1581,,Finance,2021-08-04,20
+582,Customer 582,customer582@email.com,123-456-1582,Company 2,Healthcare,2021-08-05,47
+583,Customer 583,customer583@email.com,123-456-1583,,Retail,2021-08-06,98
+584,Customer 584,customer584@email.com,123-456-1584,,Education,2021-08-07,6
+585,Customer 585,customer585@email.com,123-456-1585,Company 5,Technology,2021-08-08,46
+586,Customer 586,customer586@email.com,123-456-1586,,Finance,2021-08-09,34
+587,Customer 587,customer587@email.com,123-456-1587,,Healthcare,2021-08-10,45
+588,Customer 588,customer588@email.com,123-456-1588,Company 8,Retail,2021-08-11,12
+589,Customer 589,customer589@email.com,123-456-1589,,Education,2021-08-12,8
+590,Customer 590,customer590@email.com,123-456-1590,,Technology,2021-08-13,21
+591,Customer 591,customer591@email.com,123-456-1591,Company 1,Finance,2021-08-14,23
+592,Customer 592,customer592@email.com,123-456-1592,,Healthcare,2021-08-15,85
+593,Customer 593,customer593@email.com,123-456-1593,,Retail,2021-08-16,32
+594,Customer 594,customer594@email.com,123-456-1594,Company 4,Education,2021-08-17,61
+595,Customer 595,customer595@email.com,123-456-1595,,Technology,2021-08-18,36
+596,Customer 596,customer596@email.com,123-456-1596,,Finance,2021-08-19,34
+597,Customer 597,customer597@email.com,123-456-1597,Company 7,Healthcare,2021-08-20,11
+598,Customer 598,customer598@email.com,123-456-1598,,Retail,2021-08-21,77
+599,Customer 599,customer599@email.com,123-456-1599,,Education,2021-08-22,30
+600,Duplicate Customer,customer600@email.com,,Company 0,Technology,2021-08-23,70
+601,Customer 601,customer601@email.com,123-456-1601,,Finance,2021-08-24,37
+602,Customer 602,customer602@email.com,123-456-1602,,Healthcare,2021-08-25,42
+603,Customer 603,customer603@email.com,123-456-1603,Company 3,Retail,2021-08-26,23
+604,Customer 604,customer604@email.com,123-456-1604,,Education,2021-08-27,1
+605,Customer 605,customer605@email.com,123-456-1605,,Technology,2021-08-28,97
+606,Customer 606,customer606@email.com,123-456-1606,Company 6,Finance,2021-08-29,38
+607,Customer 607,customer607@email.com,123-456-1607,,Healthcare,2021-08-30,33
+608,Customer 608,customer608@email.com,123-456-1608,,Retail,2021-08-31,29
+609,Customer 609,customer609@email.com,123-456-1609,Company 9,Education,2021-09-01,92
+610,Customer 610,customer610@email.com,123-456-1610,,Technology,2021-09-02,29
+611,Customer 611,customer611@email.com,123-456-1611,,Finance,2021-09-03,35
+612,Customer 612,customer612@email.com,123-456-1612,Company 2,Healthcare,2021-09-04,73
+613,Customer 613,customer613@email.com,123-456-1613,,Retail,2021-09-05,52
+614,Customer 614,customer614@email.com,123-456-1614,,Education,2021-09-06,96
+615,Customer 615,customer615@email.com,123-456-1615,Company 5,Technology,2021-09-07,78
+616,Customer 616,customer616@email.com,123-456-1616,,Finance,2021-09-08,77
+617,Customer 617,customer617@email.com,123-456-1617,,Healthcare,2021-09-09,48
+618,Customer 618,customer618@email.com,123-456-1618,Company 8,Retail,2021-09-10,90
+619,Customer 619,customer619@email.com,123-456-1619,,Education,2021-09-11,55
+620,Customer 620,customer620@email.com,123-456-1620,,Technology,2021-09-12,45
+621,Customer 621,customer621@email.com,123-456-1621,Company 1,Finance,2021-09-13,98
+622,Customer 622,customer622@email.com,123-456-1622,,Healthcare,2021-09-14,10
+623,Customer 623,customer623@email.com,123-456-1623,,Retail,2021-09-15,20
+624,Customer 624,customer624@email.com,123-456-1624,Company 4,Education,2021-09-16,80
+625,Customer 625,customer625@email.com,123-456-1625,,Technology,2021-09-17,93
+626,Customer 626,customer626@email.com,123-456-1626,,Finance,2021-09-18,61
+627,Customer 627,customer627@email.com,123-456-1627,Company 7,Healthcare,2021-09-19,58
+628,Customer 628,customer628@email.com,123-456-1628,,Retail,2021-09-20,40
+629,Customer 629,customer629@email.com,123-456-1629,,Education,2021-09-21,65
+630,Customer 630,customer630@email.com,123-456-1630,Company 0,Technology,2021-09-22,61
+631,Customer 631,customer631@email.com,123-456-1631,,Finance,2021-09-23,64
+632,Customer 632,customer632@email.com,123-456-1632,,Healthcare,2021-09-24,28
+633,Customer 633,customer633@email.com,123-456-1633,Company 3,Retail,2021-09-25,6
+634,Customer 634,customer634@email.com,123-456-1634,,Education,2021-09-26,7
+635,Customer 635,customer635@email.com,123-456-1635,,Technology,2021-09-27,100
+636,Customer 636,customer636@email.com,123-456-1636,Company 6,Finance,2021-09-28,44
+637,Customer 637,customer637@email.com,123-456-1637,,Healthcare,2021-09-29,96
+638,Customer 638,customer638@email.com,123-456-1638,,Retail,2021-09-30,62
+639,Customer 639,customer639@email.com,123-456-1639,Company 9,Education,2021-10-01,34
+640,Customer 640,customer640@email.com,123-456-1640,,Technology,2021-10-02,49
+641,Customer 641,customer641@email.com,123-456-1641,,Finance,2021-10-03,85
+642,Customer 642,customer642@email.com,123-456-1642,Company 2,Healthcare,2021-10-04,14
+643,Customer 643,customer643@email.com,123-456-1643,,Retail,2021-10-05,97
+644,Customer 644,customer644@email.com,123-456-1644,,Education,2021-10-06,21
+645,Customer 645,customer645@email.com,123-456-1645,Company 5,Technology,2021-10-07,7
+646,Customer 646,customer646@email.com,123-456-1646,,Finance,2021-10-08,29
+647,Customer 647,customer647@email.com,123-456-1647,,Healthcare,2021-10-09,51
+648,Customer 648,customer648@email.com,123-456-1648,Company 8,Retail,2021-10-10,91
+649,Customer 649,customer649@email.com,123-456-1649,,Education,2021-10-11,100
+650,Duplicate Customer,customer650@email.com,123-456-1650,,Technology,2021-10-12,72
+651,Customer 651,customer651@email.com,123-456-1651,Company 1,Finance,2021-10-13,75
+652,Customer 652,customer652@email.com,123-456-1652,,Healthcare,2021-10-14,85
+653,Customer 653,customer653@email.com,123-456-1653,,Retail,2021-10-15,64
+654,Customer 654,customer654@email.com,123-456-1654,Company 4,Education,2021-10-16,0
+655,Customer 655,customer655@email.com,123-456-1655,,Technology,2021-10-17,3
+656,Customer 656,customer656@email.com,123-456-1656,,Finance,2021-10-18,67
+657,Customer 657,customer657@email.com,123-456-1657,Company 7,Healthcare,2021-10-19,80
+658,Customer 658,customer658@email.com,123-456-1658,,Retail,2021-10-20,37
+659,Customer 659,customer659@email.com,123-456-1659,,Education,2021-10-21,94
+660,Customer 660,customer660@email.com,123-456-1660,Company 0,Technology,2021-10-22,93
+661,Customer 661,customer661@email.com,123-456-1661,,Finance,2021-10-23,71
+662,Customer 662,customer662@email.com,123-456-1662,,Healthcare,2021-10-24,68
+663,Customer 663,customer663@email.com,123-456-1663,Company 3,Retail,2021-10-25,51
+664,Customer 664,customer664@email.com,123-456-1664,,Education,2021-10-26,50
+665,Customer 665,customer665@email.com,123-456-1665,,Technology,2021-10-27,99
+666,Customer 666,customer666@email.com,123-456-1666,Company 6,Finance,2021-10-28,61
+667,Customer 667,customer667@email.com,123-456-1667,,Healthcare,2021-10-29,99
+668,Customer 668,customer668@email.com,123-456-1668,,Retail,2021-10-30,8
+669,Customer 669,customer669@email.com,123-456-1669,Company 9,Education,2021-10-31,78
+670,Customer 670,customer670@email.com,123-456-1670,,Technology,2021-11-01,40
+671,Customer 671,customer671@email.com,123-456-1671,,Finance,2021-11-02,41
+672,Customer 672,customer672@email.com,123-456-1672,Company 2,Healthcare,2021-11-03,97
+673,Customer 673,customer673@email.com,123-456-1673,,Retail,2021-11-04,58
+674,Customer 674,customer674@email.com,123-456-1674,,Education,2021-11-05,56
+675,Customer 675,customer675@email.com,123-456-1675,Company 5,Technology,2021-11-06,60
+676,Customer 676,customer676@email.com,123-456-1676,,Finance,2021-11-07,87
+677,Customer 677,customer677@email.com,123-456-1677,,Healthcare,2021-11-08,52
+678,Customer 678,customer678@email.com,123-456-1678,Company 8,Retail,2021-11-09,31
+679,Customer 679,customer679@email.com,123-456-1679,,Education,2021-11-10,50
+680,Customer 680,customer680@email.com,123-456-1680,,Technology,2021-11-11,95
+681,Customer 681,customer681@email.com,123-456-1681,Company 1,Finance,2021-11-12,10
+682,Customer 682,customer682@email.com,123-456-1682,,Healthcare,2021-11-13,22
+683,Customer 683,customer683@email.com,123-456-1683,,Retail,2021-11-14,14
+684,Customer 684,customer684@email.com,123-456-1684,Company 4,Education,2021-11-15,8
+685,Customer 685,customer685@email.com,123-456-1685,,Technology,2021-11-16,45
+686,Customer 686,customer686@email.com,123-456-1686,,Finance,2021-11-17,97
+687,Customer 687,customer687@email.com,123-456-1687,Company 7,Healthcare,2021-11-18,29
+688,Customer 688,customer688@email.com,123-456-1688,,Retail,2021-11-19,52
+689,Customer 689,customer689@email.com,123-456-1689,,Education,2021-11-20,1
+690,Customer 690,customer690@email.com,123-456-1690,Company 0,Technology,2021-11-21,17
+691,Customer 691,customer691@email.com,123-456-1691,,Finance,2021-11-22,95
+692,Customer 692,customer692@email.com,123-456-1692,,Healthcare,2021-11-23,89
+693,Customer 693,customer693@email.com,123-456-1693,Company 3,Retail,2021-11-24,40
+694,Customer 694,customer694@email.com,123-456-1694,,Education,2021-11-25,31
+695,Customer 695,customer695@email.com,123-456-1695,,Technology,2021-11-26,24
+696,Customer 696,customer696@email.com,123-456-1696,Company 6,Finance,2021-11-27,99
+697,Customer 697,customer697@email.com,123-456-1697,,Healthcare,2021-11-28,38
+698,Customer 698,customer698@email.com,123-456-1698,,Retail,2021-11-29,87
+699,Customer 699,customer699@email.com,123-456-1699,Company 9,Education,2021-11-30,63
+700,Duplicate Customer,customer700@email.com,,,Technology,2021-12-01,21
+701,Customer 701,customer701@email.com,123-456-1701,,Finance,2021-12-02,100
+702,Customer 702,customer702@email.com,123-456-1702,Company 2,Healthcare,2021-12-03,21
+703,Customer 703,customer703@email.com,123-456-1703,,Retail,2021-12-04,59
+704,Customer 704,customer704@email.com,123-456-1704,,Education,2021-12-05,77
+705,Customer 705,customer705@email.com,123-456-1705,Company 5,Technology,2021-12-06,28
+706,Customer 706,customer706@email.com,123-456-1706,,Finance,2021-12-07,66
+707,Customer 707,customer707@email.com,123-456-1707,,Healthcare,2021-12-08,79
+708,Customer 708,customer708@email.com,123-456-1708,Company 8,Retail,2021-12-09,51
+709,Customer 709,customer709@email.com,123-456-1709,,Education,2021-12-10,82
+710,Customer 710,customer710@email.com,123-456-1710,,Technology,2021-12-11,52
+711,Customer 711,customer711@email.com,123-456-1711,Company 1,Finance,2021-12-12,75
+712,Customer 712,customer712@email.com,123-456-1712,,Healthcare,2021-12-13,78
+713,Customer 713,customer713@email.com,123-456-1713,,Retail,2021-12-14,10
+714,Customer 714,customer714@email.com,123-456-1714,Company 4,Education,2021-12-15,13
+715,Customer 715,customer715@email.com,123-456-1715,,Technology,2021-12-16,36
+716,Customer 716,customer716@email.com,123-456-1716,,Finance,2021-12-17,94
+717,Customer 717,customer717@email.com,123-456-1717,Company 7,Healthcare,2021-12-18,11
+718,Customer 718,customer718@email.com,123-456-1718,,Retail,2021-12-19,42
+719,Customer 719,customer719@email.com,123-456-1719,,Education,2021-12-20,25
+720,Customer 720,customer720@email.com,123-456-1720,Company 0,Technology,2021-12-21,16
+721,Customer 721,customer721@email.com,123-456-1721,,Finance,2021-12-22,21
+722,Customer 722,customer722@email.com,123-456-1722,,Healthcare,2021-12-23,57
+723,Customer 723,customer723@email.com,123-456-1723,Company 3,Retail,2021-12-24,60
+724,Customer 724,customer724@email.com,123-456-1724,,Education,2021-12-25,22
+725,Customer 725,customer725@email.com,123-456-1725,,Technology,2021-12-26,39
+726,Customer 726,customer726@email.com,123-456-1726,Company 6,Finance,2021-12-27,53
+727,Customer 727,customer727@email.com,123-456-1727,,Healthcare,2021-12-28,62
+728,Customer 728,customer728@email.com,123-456-1728,,Retail,2021-12-29,36
+729,Customer 729,customer729@email.com,123-456-1729,Company 9,Education,2021-12-30,99
+730,Customer 730,customer730@email.com,123-456-1730,,Technology,2021-12-31,3
+731,Customer 731,customer731@email.com,123-456-1731,,Finance,2022-01-01,18
+732,Customer 732,customer732@email.com,123-456-1732,Company 2,Healthcare,2022-01-02,5
+733,Customer 733,customer733@email.com,123-456-1733,,Retail,2022-01-03,41
+734,Customer 734,customer734@email.com,123-456-1734,,Education,2022-01-04,89
+735,Customer 735,customer735@email.com,123-456-1735,Company 5,Technology,2022-01-05,26
+736,Customer 736,customer736@email.com,123-456-1736,,Finance,2022-01-06,46
+737,Customer 737,customer737@email.com,123-456-1737,,Healthcare,2022-01-07,95
+738,Customer 738,customer738@email.com,123-456-1738,Company 8,Retail,2022-01-08,51
+739,Customer 739,customer739@email.com,123-456-1739,,Education,2022-01-09,36
+740,Customer 740,customer740@email.com,123-456-1740,,Technology,2022-01-10,49
+741,Customer 741,customer741@email.com,123-456-1741,Company 1,Finance,2022-01-11,47
+742,Customer 742,customer742@email.com,123-456-1742,,Healthcare,2022-01-12,6
+743,Customer 743,customer743@email.com,123-456-1743,,Retail,2022-01-13,24
+744,Customer 744,customer744@email.com,123-456-1744,Company 4,Education,2022-01-14,2
+745,Customer 745,customer745@email.com,123-456-1745,,Technology,2022-01-15,36
+746,Customer 746,customer746@email.com,123-456-1746,,Finance,2022-01-16,59
+747,Customer 747,customer747@email.com,123-456-1747,Company 7,Healthcare,2022-01-17,44
+748,Customer 748,customer748@email.com,123-456-1748,,Retail,2022-01-18,17
+749,Customer 749,customer749@email.com,123-456-1749,,Education,2022-01-19,52
+750,Duplicate Customer,customer750@email.com,123-456-1750,Company 0,Technology,2022-01-20,26
+751,Customer 751,customer751@email.com,123-456-1751,,Finance,2022-01-21,11
+752,Customer 752,customer752@email.com,123-456-1752,,Healthcare,2022-01-22,37
+753,Customer 753,customer753@email.com,123-456-1753,Company 3,Retail,2022-01-23,5
+754,Customer 754,customer754@email.com,123-456-1754,,Education,2022-01-24,55
+755,Customer 755,customer755@email.com,123-456-1755,,Technology,2022-01-25,100
+756,Customer 756,customer756@email.com,123-456-1756,Company 6,Finance,2022-01-26,22
+757,Customer 757,customer757@email.com,123-456-1757,,Healthcare,2022-01-27,97
+758,Customer 758,customer758@email.com,123-456-1758,,Retail,2022-01-28,61
+759,Customer 759,customer759@email.com,123-456-1759,Company 9,Education,2022-01-29,39
+760,Customer 760,customer760@email.com,123-456-1760,,Technology,2022-01-30,49
+761,Customer 761,customer761@email.com,123-456-1761,,Finance,2022-01-31,27
+762,Customer 762,customer762@email.com,123-456-1762,Company 2,Healthcare,2022-02-01,75
+763,Customer 763,customer763@email.com,123-456-1763,,Retail,2022-02-02,91
+764,Customer 764,customer764@email.com,123-456-1764,,Education,2022-02-03,34
+765,Customer 765,customer765@email.com,123-456-1765,Company 5,Technology,2022-02-04,97
+766,Customer 766,customer766@email.com,123-456-1766,,Finance,2022-02-05,62
+767,Customer 767,customer767@email.com,123-456-1767,,Healthcare,2022-02-06,76
+768,Customer 768,customer768@email.com,123-456-1768,Company 8,Retail,2022-02-07,97
+769,Customer 769,customer769@email.com,123-456-1769,,Education,2022-02-08,67
+770,Customer 770,customer770@email.com,123-456-1770,,Technology,2022-02-09,16
+771,Customer 771,customer771@email.com,123-456-1771,Company 1,Finance,2022-02-10,53
+772,Customer 772,customer772@email.com,123-456-1772,,Healthcare,2022-02-11,76
+773,Customer 773,customer773@email.com,123-456-1773,,Retail,2022-02-12,78
+774,Customer 774,customer774@email.com,123-456-1774,Company 4,Education,2022-02-13,54
+775,Customer 775,customer775@email.com,123-456-1775,,Technology,2022-02-14,60
+776,Customer 776,customer776@email.com,123-456-1776,,Finance,2022-02-15,58
+777,Customer 777,customer777@email.com,123-456-1777,Company 7,Healthcare,2022-02-16,66
+778,Customer 778,customer778@email.com,123-456-1778,,Retail,2022-02-17,86
+779,Customer 779,customer779@email.com,123-456-1779,,Education,2022-02-18,100
+780,Customer 780,customer780@email.com,123-456-1780,Company 0,Technology,2022-02-19,90
+781,Customer 781,customer781@email.com,123-456-1781,,Finance,2022-02-20,37
+782,Customer 782,customer782@email.com,123-456-1782,,Healthcare,2022-02-21,91
+783,Customer 783,customer783@email.com,123-456-1783,Company 3,Retail,2022-02-22,38
+784,Customer 784,customer784@email.com,123-456-1784,,Education,2022-02-23,19
+785,Customer 785,customer785@email.com,123-456-1785,,Technology,2022-02-24,100
+786,Customer 786,customer786@email.com,123-456-1786,Company 6,Finance,2022-02-25,1
+787,Customer 787,customer787@email.com,123-456-1787,,Healthcare,2022-02-26,5
+788,Customer 788,customer788@email.com,123-456-1788,,Retail,2022-02-27,35
+789,Customer 789,customer789@email.com,123-456-1789,Company 9,Education,2022-02-28,3
+790,Customer 790,customer790@email.com,123-456-1790,,Technology,2022-03-01,67
+791,Customer 791,customer791@email.com,123-456-1791,,Finance,2022-03-02,48
+792,Customer 792,customer792@email.com,123-456-1792,Company 2,Healthcare,2022-03-03,17
+793,Customer 793,customer793@email.com,123-456-1793,,Retail,2022-03-04,69
+794,Customer 794,customer794@email.com,123-456-1794,,Education,2022-03-05,13
+795,Customer 795,customer795@email.com,123-456-1795,Company 5,Technology,2022-03-06,4
+796,Customer 796,customer796@email.com,123-456-1796,,Finance,2022-03-07,23
+797,Customer 797,customer797@email.com,123-456-1797,,Healthcare,2022-03-08,48
+798,Customer 798,customer798@email.com,123-456-1798,Company 8,Retail,2022-03-09,6
+799,Customer 799,customer799@email.com,123-456-1799,,Education,2022-03-10,19
+800,Duplicate Customer,customer800@email.com,,,Technology,2022-03-11,12
+801,Customer 801,customer801@email.com,123-456-1801,Company 1,Finance,2022-03-12,87
+802,Customer 802,customer802@email.com,123-456-1802,,Healthcare,2022-03-13,97
+803,Customer 803,customer803@email.com,123-456-1803,,Retail,2022-03-14,81
+804,Customer 804,customer804@email.com,123-456-1804,Company 4,Education,2022-03-15,63
+805,Customer 805,customer805@email.com,123-456-1805,,Technology,2022-03-16,71
+806,Customer 806,customer806@email.com,123-456-1806,,Finance,2022-03-17,42
+807,Customer 807,customer807@email.com,123-456-1807,Company 7,Healthcare,2022-03-18,0
+808,Customer 808,customer808@email.com,123-456-1808,,Retail,2022-03-19,12
+809,Customer 809,customer809@email.com,123-456-1809,,Education,2022-03-20,72
+810,Customer 810,customer810@email.com,123-456-1810,Company 0,Technology,2022-03-21,15
+811,Customer 811,customer811@email.com,123-456-1811,,Finance,2022-03-22,82
+812,Customer 812,customer812@email.com,123-456-1812,,Healthcare,2022-03-23,11
+813,Customer 813,customer813@email.com,123-456-1813,Company 3,Retail,2022-03-24,19
+814,Customer 814,customer814@email.com,123-456-1814,,Education,2022-03-25,70
+815,Customer 815,customer815@email.com,123-456-1815,,Technology,2022-03-26,11
+816,Customer 816,customer816@email.com,123-456-1816,Company 6,Finance,2022-03-27,97
+817,Customer 817,customer817@email.com,123-456-1817,,Healthcare,2022-03-28,85
+818,Customer 818,customer818@email.com,123-456-1818,,Retail,2022-03-29,77
+819,Customer 819,customer819@email.com,123-456-1819,Company 9,Education,2022-03-30,50
+820,Customer 820,customer820@email.com,123-456-1820,,Technology,2022-03-31,45
+821,Customer 821,customer821@email.com,123-456-1821,,Finance,2022-04-01,94
+822,Customer 822,customer822@email.com,123-456-1822,Company 2,Healthcare,2022-04-02,68
+823,Customer 823,customer823@email.com,123-456-1823,,Retail,2022-04-03,17
+824,Customer 824,customer824@email.com,123-456-1824,,Education,2022-04-04,79
+825,Customer 825,customer825@email.com,123-456-1825,Company 5,Technology,2022-04-05,20
+826,Customer 826,customer826@email.com,123-456-1826,,Finance,2022-04-06,34
+827,Customer 827,customer827@email.com,123-456-1827,,Healthcare,2022-04-07,78
+828,Customer 828,customer828@email.com,123-456-1828,Company 8,Retail,2022-04-08,77
+829,Customer 829,customer829@email.com,123-456-1829,,Education,2022-04-09,9
+830,Customer 830,customer830@email.com,123-456-1830,,Technology,2022-04-10,68
+831,Customer 831,customer831@email.com,123-456-1831,Company 1,Finance,2022-04-11,22
+832,Customer 832,customer832@email.com,123-456-1832,,Healthcare,2022-04-12,92
+833,Customer 833,customer833@email.com,123-456-1833,,Retail,2022-04-13,43
+834,Customer 834,customer834@email.com,123-456-1834,Company 4,Education,2022-04-14,45
+835,Customer 835,customer835@email.com,123-456-1835,,Technology,2022-04-15,44
+836,Customer 836,customer836@email.com,123-456-1836,,Finance,2022-04-16,94
+837,Customer 837,customer837@email.com,123-456-1837,Company 7,Healthcare,2022-04-17,91
+838,Customer 838,customer838@email.com,123-456-1838,,Retail,2022-04-18,34
+839,Customer 839,customer839@email.com,123-456-1839,,Education,2022-04-19,48
+840,Customer 840,customer840@email.com,123-456-1840,Company 0,Technology,2022-04-20,34
+841,Customer 841,customer841@email.com,123-456-1841,,Finance,2022-04-21,79
+842,Customer 842,customer842@email.com,123-456-1842,,Healthcare,2022-04-22,10
+843,Customer 843,customer843@email.com,123-456-1843,Company 3,Retail,2022-04-23,22
+844,Customer 844,customer844@email.com,123-456-1844,,Education,2022-04-24,35
+845,Customer 845,customer845@email.com,123-456-1845,,Technology,2022-04-25,29
+846,Customer 846,customer846@email.com,123-456-1846,Company 6,Finance,2022-04-26,91
+847,Customer 847,customer847@email.com,123-456-1847,,Healthcare,2022-04-27,65
+848,Customer 848,customer848@email.com,123-456-1848,,Retail,2022-04-28,25
+849,Customer 849,customer849@email.com,123-456-1849,Company 9,Education,2022-04-29,53
+850,Duplicate Customer,customer850@email.com,123-456-1850,,Technology,2022-04-30,74
+851,Customer 851,customer851@email.com,123-456-1851,,Finance,2022-05-01,84
+852,Customer 852,customer852@email.com,123-456-1852,Company 2,Healthcare,2022-05-02,51
+853,Customer 853,customer853@email.com,123-456-1853,,Retail,2022-05-03,8
+854,Customer 854,customer854@email.com,123-456-1854,,Education,2022-05-04,32
+855,Customer 855,customer855@email.com,123-456-1855,Company 5,Technology,2022-05-05,26
+856,Customer 856,customer856@email.com,123-456-1856,,Finance,2022-05-06,5
+857,Customer 857,customer857@email.com,123-456-1857,,Healthcare,2022-05-07,1
+858,Customer 858,customer858@email.com,123-456-1858,Company 8,Retail,2022-05-08,51
+859,Customer 859,customer859@email.com,123-456-1859,,Education,2022-05-09,73
+860,Customer 860,customer860@email.com,123-456-1860,,Technology,2022-05-10,43
+861,Customer 861,customer861@email.com,123-456-1861,Company 1,Finance,2022-05-11,50
+862,Customer 862,customer862@email.com,123-456-1862,,Healthcare,2022-05-12,43
+863,Customer 863,customer863@email.com,123-456-1863,,Retail,2022-05-13,38
+864,Customer 864,customer864@email.com,123-456-1864,Company 4,Education,2022-05-14,95
+865,Customer 865,customer865@email.com,123-456-1865,,Technology,2022-05-15,97
+866,Customer 866,customer866@email.com,123-456-1866,,Finance,2022-05-16,60
+867,Customer 867,customer867@email.com,123-456-1867,Company 7,Healthcare,2022-05-17,34
+868,Customer 868,customer868@email.com,123-456-1868,,Retail,2022-05-18,41
+869,Customer 869,customer869@email.com,123-456-1869,,Education,2022-05-19,44
+870,Customer 870,customer870@email.com,123-456-1870,Company 0,Technology,2022-05-20,98
+871,Customer 871,customer871@email.com,123-456-1871,,Finance,2022-05-21,21
+872,Customer 872,customer872@email.com,123-456-1872,,Healthcare,2022-05-22,51
+873,Customer 873,customer873@email.com,123-456-1873,Company 3,Retail,2022-05-23,30
+874,Customer 874,customer874@email.com,123-456-1874,,Education,2022-05-24,21
+875,Customer 875,customer875@email.com,123-456-1875,,Technology,2022-05-25,43
+876,Customer 876,customer876@email.com,123-456-1876,Company 6,Finance,2022-05-26,39
+877,Customer 877,customer877@email.com,123-456-1877,,Healthcare,2022-05-27,13
+878,Customer 878,customer878@email.com,123-456-1878,,Retail,2022-05-28,21
+879,Customer 879,customer879@email.com,123-456-1879,Company 9,Education,2022-05-29,54
+880,Customer 880,customer880@email.com,123-456-1880,,Technology,2022-05-30,11
+881,Customer 881,customer881@email.com,123-456-1881,,Finance,2022-05-31,77
+882,Customer 882,customer882@email.com,123-456-1882,Company 2,Healthcare,2022-06-01,37
+883,Customer 883,customer883@email.com,123-456-1883,,Retail,2022-06-02,58
+884,Customer 884,customer884@email.com,123-456-1884,,Education,2022-06-03,12
+885,Customer 885,customer885@email.com,123-456-1885,Company 5,Technology,2022-06-04,5
+886,Customer 886,customer886@email.com,123-456-1886,,Finance,2022-06-05,0
+887,Customer 887,customer887@email.com,123-456-1887,,Healthcare,2022-06-06,35
+888,Customer 888,customer888@email.com,123-456-1888,Company 8,Retail,2022-06-07,8
+889,Customer 889,customer889@email.com,123-456-1889,,Education,2022-06-08,45
+890,Customer 890,customer890@email.com,123-456-1890,,Technology,2022-06-09,62
+891,Customer 891,customer891@email.com,123-456-1891,Company 1,Finance,2022-06-10,7
+892,Customer 892,customer892@email.com,123-456-1892,,Healthcare,2022-06-11,56
+893,Customer 893,customer893@email.com,123-456-1893,,Retail,2022-06-12,27
+894,Customer 894,customer894@email.com,123-456-1894,Company 4,Education,2022-06-13,86
+895,Customer 895,customer895@email.com,123-456-1895,,Technology,2022-06-14,16
+896,Customer 896,customer896@email.com,123-456-1896,,Finance,2022-06-15,44
+897,Customer 897,customer897@email.com,123-456-1897,Company 7,Healthcare,2022-06-16,12
+898,Customer 898,customer898@email.com,123-456-1898,,Retail,2022-06-17,2
+899,Customer 899,customer899@email.com,123-456-1899,,Education,2022-06-18,93
+900,Duplicate Customer,customer900@email.com,,Company 0,Technology,2022-06-19,16
+901,Customer 901,customer901@email.com,123-456-1901,,Finance,2022-06-20,87
+902,Customer 902,customer902@email.com,123-456-1902,,Healthcare,2022-06-21,7
+903,Customer 903,customer903@email.com,123-456-1903,Company 3,Retail,2022-06-22,58
+904,Customer 904,customer904@email.com,123-456-1904,,Education,2022-06-23,24
+905,Customer 905,customer905@email.com,123-456-1905,,Technology,2022-06-24,8
+906,Customer 906,customer906@email.com,123-456-1906,Company 6,Finance,2022-06-25,64
+907,Customer 907,customer907@email.com,123-456-1907,,Healthcare,2022-06-26,79
+908,Customer 908,customer908@email.com,123-456-1908,,Retail,2022-06-27,41
+909,Customer 909,customer909@email.com,123-456-1909,Company 9,Education,2022-06-28,76
+910,Customer 910,customer910@email.com,123-456-1910,,Technology,2022-06-29,9
+911,Customer 911,customer911@email.com,123-456-1911,,Finance,2022-06-30,2
+912,Customer 912,customer912@email.com,123-456-1912,Company 2,Healthcare,2022-07-01,14
+913,Customer 913,customer913@email.com,123-456-1913,,Retail,2022-07-02,52
+914,Customer 914,customer914@email.com,123-456-1914,,Education,2022-07-03,36
+915,Customer 915,customer915@email.com,123-456-1915,Company 5,Technology,2022-07-04,93
+916,Customer 916,customer916@email.com,123-456-1916,,Finance,2022-07-05,40
+917,Customer 917,customer917@email.com,123-456-1917,,Healthcare,2022-07-06,98
+918,Customer 918,customer918@email.com,123-456-1918,Company 8,Retail,2022-07-07,63
+919,Customer 919,customer919@email.com,123-456-1919,,Education,2022-07-08,44
+920,Customer 920,customer920@email.com,123-456-1920,,Technology,2022-07-09,69
+921,Customer 921,customer921@email.com,123-456-1921,Company 1,Finance,2022-07-10,39
+922,Customer 922,customer922@email.com,123-456-1922,,Healthcare,2022-07-11,22
+923,Customer 923,customer923@email.com,123-456-1923,,Retail,2022-07-12,45
+924,Customer 924,customer924@email.com,123-456-1924,Company 4,Education,2022-07-13,35
+925,Customer 925,customer925@email.com,123-456-1925,,Technology,2022-07-14,1
+926,Customer 926,customer926@email.com,123-456-1926,,Finance,2022-07-15,75
+927,Customer 927,customer927@email.com,123-456-1927,Company 7,Healthcare,2022-07-16,12
+928,Customer 928,customer928@email.com,123-456-1928,,Retail,2022-07-17,94
+929,Customer 929,customer929@email.com,123-456-1929,,Education,2022-07-18,70
+930,Customer 930,customer930@email.com,123-456-1930,Company 0,Technology,2022-07-19,28
+931,Customer 931,customer931@email.com,123-456-1931,,Finance,2022-07-20,75
+932,Customer 932,customer932@email.com,123-456-1932,,Healthcare,2022-07-21,97
+933,Customer 933,customer933@email.com,123-456-1933,Company 3,Retail,2022-07-22,55
+934,Customer 934,customer934@email.com,123-456-1934,,Education,2022-07-23,57
+935,Customer 935,customer935@email.com,123-456-1935,,Technology,2022-07-24,87
+936,Customer 936,customer936@email.com,123-456-1936,Company 6,Finance,2022-07-25,34
+937,Customer 937,customer937@email.com,123-456-1937,,Healthcare,2022-07-26,26
+938,Customer 938,customer938@email.com,123-456-1938,,Retail,2022-07-27,67
+939,Customer 939,customer939@email.com,123-456-1939,Company 9,Education,2022-07-28,97
+940,Customer 940,customer940@email.com,123-456-1940,,Technology,2022-07-29,17
+941,Customer 941,customer941@email.com,123-456-1941,,Finance,2022-07-30,50
+942,Customer 942,customer942@email.com,123-456-1942,Company 2,Healthcare,2022-07-31,21
+943,Customer 943,customer943@email.com,123-456-1943,,Retail,2022-08-01,13
+944,Customer 944,customer944@email.com,123-456-1944,,Education,2022-08-02,60
+945,Customer 945,customer945@email.com,123-456-1945,Company 5,Technology,2022-08-03,70
+946,Customer 946,customer946@email.com,123-456-1946,,Finance,2022-08-04,2
+947,Customer 947,customer947@email.com,123-456-1947,,Healthcare,2022-08-05,21
+948,Customer 948,customer948@email.com,123-456-1948,Company 8,Retail,2022-08-06,38
+949,Customer 949,customer949@email.com,123-456-1949,,Education,2022-08-07,74
+950,Duplicate Customer,customer950@email.com,123-456-1950,,Technology,2022-08-08,76
+951,Customer 951,customer951@email.com,123-456-1951,Company 1,Finance,2022-08-09,16
+952,Customer 952,customer952@email.com,123-456-1952,,Healthcare,2022-08-10,41
+953,Customer 953,customer953@email.com,123-456-1953,,Retail,2022-08-11,60
+954,Customer 954,customer954@email.com,123-456-1954,Company 4,Education,2022-08-12,21
+955,Customer 955,customer955@email.com,123-456-1955,,Technology,2022-08-13,66
+956,Customer 956,customer956@email.com,123-456-1956,,Finance,2022-08-14,58
+957,Customer 957,customer957@email.com,123-456-1957,Company 7,Healthcare,2022-08-15,27
+958,Customer 958,customer958@email.com,123-456-1958,,Retail,2022-08-16,57
+959,Customer 959,customer959@email.com,123-456-1959,,Education,2022-08-17,5
+960,Customer 960,customer960@email.com,123-456-1960,Company 0,Technology,2022-08-18,41
+961,Customer 961,customer961@email.com,123-456-1961,,Finance,2022-08-19,94
+962,Customer 962,customer962@email.com,123-456-1962,,Healthcare,2022-08-20,69
+963,Customer 963,customer963@email.com,123-456-1963,Company 3,Retail,2022-08-21,76
+964,Customer 964,customer964@email.com,123-456-1964,,Education,2022-08-22,72
+965,Customer 965,customer965@email.com,123-456-1965,,Technology,2022-08-23,78
+966,Customer 966,customer966@email.com,123-456-1966,Company 6,Finance,2022-08-24,18
+967,Customer 967,customer967@email.com,123-456-1967,,Healthcare,2022-08-25,60
+968,Customer 968,customer968@email.com,123-456-1968,,Retail,2022-08-26,90
+969,Customer 969,customer969@email.com,123-456-1969,Company 9,Education,2022-08-27,72
+970,Customer 970,customer970@email.com,123-456-1970,,Technology,2022-08-28,61
+971,Customer 971,customer971@email.com,123-456-1971,,Finance,2022-08-29,95
+972,Customer 972,customer972@email.com,123-456-1972,Company 2,Healthcare,2022-08-30,93
+973,Customer 973,customer973@email.com,123-456-1973,,Retail,2022-08-31,35
+974,Customer 974,customer974@email.com,123-456-1974,,Education,2022-09-01,35
+975,Customer 975,customer975@email.com,123-456-1975,Company 5,Technology,2022-09-02,32
+976,Customer 976,customer976@email.com,123-456-1976,,Finance,2022-09-03,44
+977,Customer 977,customer977@email.com,123-456-1977,,Healthcare,2022-09-04,89
+978,Customer 978,customer978@email.com,123-456-1978,Company 8,Retail,2022-09-05,57
+979,Customer 979,customer979@email.com,123-456-1979,,Education,2022-09-06,90
+980,Customer 980,customer980@email.com,123-456-1980,,Technology,2022-09-07,54
+981,Customer 981,customer981@email.com,123-456-1981,Company 1,Finance,2022-09-08,78
+982,Customer 982,customer982@email.com,123-456-1982,,Healthcare,2022-09-09,25
+983,Customer 983,customer983@email.com,123-456-1983,,Retail,2022-09-10,36
+984,Customer 984,customer984@email.com,123-456-1984,Company 4,Education,2022-09-11,51
+985,Customer 985,customer985@email.com,123-456-1985,,Technology,2022-09-12,76
+986,Customer 986,customer986@email.com,123-456-1986,,Finance,2022-09-13,43
+987,Customer 987,customer987@email.com,123-456-1987,Company 7,Healthcare,2022-09-14,22
+988,Customer 988,customer988@email.com,123-456-1988,,Retail,2022-09-15,14
+989,Customer 989,customer989@email.com,123-456-1989,,Education,2022-09-16,50
+990,Customer 990,customer990@email.com,123-456-1990,Company 0,Technology,2022-09-17,12
+991,Customer 991,customer991@email.com,123-456-1991,,Finance,2022-09-18,23
+992,Customer 992,customer992@email.com,123-456-1992,,Healthcare,2022-09-19,92
+993,Customer 993,customer993@email.com,123-456-1993,Company 3,Retail,2022-09-20,65
+994,Customer 994,customer994@email.com,123-456-1994,,Education,2022-09-21,43
+995,Customer 995,customer995@email.com,123-456-1995,,Technology,2022-09-22,84
+996,Customer 996,customer996@email.com,123-456-1996,Company 6,Finance,2022-09-23,14
+997,Customer 997,customer997@email.com,123-456-1997,,Healthcare,2022-09-24,2
+998,Customer 998,customer998@email.com,123-456-1998,,Retail,2022-09-25,28
+999,Customer 999,customer999@email.com,123-456-1999,Company 9,Education,2022-09-26,94
+1000,Duplicate Customer,customer1000@email.com,,,Technology,2022-09-27,90
